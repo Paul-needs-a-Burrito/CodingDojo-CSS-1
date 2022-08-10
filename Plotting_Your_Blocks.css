@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+
+/* parent */
+    #wrapper {
+    width: 950px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: silver;
+    }
+
+/* child-sibling */
+    #header {
+    min-height: 150px;
+    background-color: green;
+    }
+
+/* child-sibling */
+    #navigation {
+    min-height: 300px;
+    width: 200px;
+    margin-top: 20px;
+    display: inline-block;
+    background-color: blue;
+    }
+
+/* child-sibling */
+    #main_content {
+    min-height: 400px;
+    width: 705px;
+    margin: 20px 0 0 20px;
+    padding: 10px;
+    display: inline-block;
+    vertical-align: top;
+    background-color: red;
+    }
+
+/* grandchild-sibling */
+    .subcontents {
+    min-height: 200px;
+    width: 210px;
+    margin: 5px;
+    display: inline-block;
+    background-color: yellow;
+    }
+
+/* grandchild-sibling */
+    #advertisement {
+    min-height: 120px;
+    width: 660px;
+    margin: 20px 5px;
+    background-color: purple;
+    }
